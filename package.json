@@ -1,7 +1,8 @@
 {
   "name": "@rifttech/xcell",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "main": "dist/index.js",
+  "private": false,
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.4",

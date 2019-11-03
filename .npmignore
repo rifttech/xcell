@@ -24,3 +24,5 @@ CHANGELOG.md
 .eslintrc
 .babelrc
 .gitignore
+
+.idea
