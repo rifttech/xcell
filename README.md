@@ -1,5 +1,7 @@
 # XCELL - ALPHA-26 format converter
 
+[![npm version](https://badge.fury.io/js/%40rifttech%2Fxcell.svg)](https://badge.fury.io/js/%40rifttech%2Fxcell)
+
 ## How to use
 
 ### Install
