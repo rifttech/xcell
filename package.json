@@ -1,6 +1,6 @@
 {
   "name": "@rifttech/xcell",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/main.js",
   "private": false,
   "license": "MIT",
@@ -17,6 +17,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
     "test": "jest"
   }
 }

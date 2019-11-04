@@ -1,6 +1,6 @@
 import { getIndexFromColumnName ,getColumnNameFromIndex} from "./converter";
 
-exports = {
+export {
     getColumnNameFromIndex,
     getIndexFromColumnName
 };

@@ -3,7 +3,7 @@
  * eg A is 0, B is 1, Z is 25, AA is 26 and so on.
  * @param {string} colName is column name of excel spreadsheet
  */
-const getIndexFromColumnName = (colName) => {
+export const getIndexFromColumnName = (colName) => {
     if (!colName || typeof(colName) !== "string") {
         throw new Error("Illegal argument, 'colName' must be a string with format [A-Z]+");
     }
@@ -42,7 +42,7 @@ const getIndexFromColumnName = (colName) => {
  * @param {number} colIndex index of column of spreadsheet(starts with 0)
  * @returns {string} a column letter representation of spreadsheet column
  */
-const getColumnNameFromIndex = (colIndex) => {
+export const getColumnNameFromIndex = (colIndex) => {
 
     if (typeof (colIndex) !== "number" || colIndex < 0){
         throw new Error(`Illegal argument, The 'colIndex = ${colIndex}' must be an integral number of range [0;+inf)`);
@@ -62,10 +62,5 @@ const getColumnNameFromIndex = (colIndex) => {
         colRef = colChar + colRef;
     }
     return colRef;
-};
-
-export {
-    getIndexFromColumnName,
-    getColumnNameFromIndex
 };
 
