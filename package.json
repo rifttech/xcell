@@ -1,7 +1,7 @@
 {
   "name": "@rifttech/xcell",
-  "version": "0.0.2",
-  "main": "dist/index.js",
+  "version": "0.0.3",
+  "main": "dist/main.js",
   "private": false,
   "license": "MIT",
   "devDependencies": {
