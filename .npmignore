@@ -26,3 +26,6 @@ CHANGELOG.md
 .gitignore
 
 .idea
+
+# prettier
+prettier.config.js
