@@ -1,5 +1,4 @@
-const getIndexFromColumnName = require("./converter").getIndexFromColumnName;
-const getColumnNameFromIndex = require("./converter").getColumnNameFromIndex;
+import { getIndexFromColumnName,getColumnNameFromIndex } from "./converter";
 
 test("test - throw error", () => {
    let args = [null, "", undefined, 1, [], ()=> {}, {}, NaN, false];

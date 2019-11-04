@@ -1,8 +1,6 @@
-const getIndexFromColumnName = require("./converter").getIndexFromColumnName;
-const getColumnNameFromIndex = require("./converter").getColumnNameFromIndex;
+import { getIndexFromColumnName ,getColumnNameFromIndex} from "./converter";
 
-module.exports = {
+exports = {
     getColumnNameFromIndex,
     getIndexFromColumnName
 };
-

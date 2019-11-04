@@ -64,7 +64,7 @@ const getColumnNameFromIndex = (colIndex) => {
     return colRef;
 };
 
-module.exports = {
+export {
     getIndexFromColumnName,
     getColumnNameFromIndex
 };
