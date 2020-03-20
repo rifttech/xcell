@@ -16,7 +16,9 @@
     "webpack-cli": "^3.3.10"
   },
   "keywords": [
-    "cell", "excel", "spreadsheet"
+    "cell",
+    "excel",
+    "spreadsheet"
   ],
   "repository": {
     "type": "git",
