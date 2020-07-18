@@ -29,3 +29,6 @@ CHANGELOG.md
 
 # prettier
 prettier.config.js
+
+# spec files
+.spec.js
