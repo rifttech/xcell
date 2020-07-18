@@ -2,6 +2,7 @@
  * Takes ALPHA-26 format number representation and converts to a 0-based base-10 index of column
  * eg A is 0, B is 1, Z is 25, AA is 26 and so on.
  * @param {string} colName is column name of excel spreadsheet
+ * @returns {number} index of column
  */
 export const getIndexFromColumnName = (colName) => {
     if (!colName || typeof(colName) !== "string") {
